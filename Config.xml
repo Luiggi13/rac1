@@ -16,12 +16,12 @@
 
       <icon src="icon.png" />
       <gap:splash src="images/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-<gap:splash src="images/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-<gap:splash src="images/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-<gap:splash src="images/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-<gap:splash src="images/fr-xhdpi.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
-<gap:splash src="images/portrait-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
-<gap:splash src="images/landscape-xxhdpi.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
+      <gap:splash src="images/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+      <gap:splash src="images/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+      <gap:splash src="images/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+      <gap:splash src="images/fr-xhdpi.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+      <gap:splash src="images/portrait-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+      <gap:splash src="images/landscape-xxhdpi.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
     <!-- versionCode is optional and Android only -->
     <gap:platform name="android" />
     <name>Rac1 project</name>

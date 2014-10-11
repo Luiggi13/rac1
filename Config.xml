@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns       = "http://www.w3.org/ns/widgets"
+      xmlns:gap       = "http://phonegap.com/ns/1.0"
+      xmlns:android   = "http://schemas.android.com/apk/res/android"
+      id              = "com.luiggi.rac1"
+      version         = "1.0.0">
+    <supports-screens android:anyDensity="true" android:resizeable="true"
+    	android:smallScreens="true"
+    	android:normalScreens="true"
+    	android:largeScreens="true"
+    	android:xlargeScreens="true" />
+
+      <preference name="fullscreen" value="true" />
+
+      <preference name="splash-screen-duration" value="5000"/>
+
+      <icon src="icon.png" />
+      <gap:splash src="images/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<gap:splash src="images/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<gap:splash src="images/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<gap:splash src="images/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+<gap:splash src="images/fr-xhdpi.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+<gap:splash src="images/portrait-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+<gap:splash src="images/landscape-xxhdpi.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
+    <!-- versionCode is optional and Android only -->
+    <gap:platform name="android" />
+    <name>Rac1 project</name>
+
+    <description>
+        Grans moments de RAC1
+    </description>
+
+    <author href="https://github.com/Luiggi13/" email="christian.llansola@gmail.com">
+        Luiggidesigner
+    </author>
+    <gap:url-scheme name="com.acme.myscheme" role="None">
+      <scheme>pgbr</scheme>
+      <scheme>pgbw</scheme>
+    </gap:url-scheme>
+
+</widget>
